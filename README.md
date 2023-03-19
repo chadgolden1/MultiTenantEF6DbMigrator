@@ -1,5 +1,5 @@
 # MultiTenantEF6Migrator
-An example ```net5.0``` console application that executes pending Entity Framework 6 (EF6) migrations to configured tenant databases.
+An example ```net6.0``` console application that executes pending Entity Framework 6 (EF6) migrations to configured tenant databases.
 
 ## Remarks
 This is useful for efficiently executing migrations in multi-tenanted scenarios where each tenant has its own connection string/database as part of a shared schema, or DbContext.
