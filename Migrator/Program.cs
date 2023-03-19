@@ -27,7 +27,7 @@ List<MigratorTenantInfo> GetConfiguredTenants()
 {
     var builder = new ConfigurationBuilder()
         .SetBasePath(Directory.GetCurrentDirectory())
-        .AddJsonFile("appSettings.json", optional: false);
+        .AddJsonFile("appsettings.json", optional: false);
 
     IConfiguration config = builder.Build();
 
